@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Solitaire</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 60px 24px 40px;
+            color: #3b2018;
+            background: #fff8f6;
+            line-height: 1.7;
+            text-align: center;
+        }
+        .logo {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 16px;
+            border-radius: 26px;
+        }
+        h1 {
+            font-size: 2rem;
+            margin: 0 0 8px;
+        }
+        .tagline {
+            font-size: 1rem;
+            color: #8a5040;
+            margin: 0 0 48px;
+        }
+        .store-links {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 56px;
+        }
+        .store-link img {
+            height: 48px;
+            display: block;
+            opacity: 1;
+            transition: opacity 0.15s;
+        }
+        .store-link:hover img { opacity: 0.8; }
+        nav {
+            border-top: 1px solid #f0d8d0;
+            padding-top: 24px;
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: #8a5040;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        nav a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <img class="logo" src="logo.png" alt="Cat Solitaire">
+    <h1>Cat Solitaire</h1>
+    <p class="tagline">Classic Klondike Solitaire with a cozy cat twist.</p>
+
+    <div class="store-links">
+        <a class="store-link" href="https://apps.apple.com/app/cat-solitaire-cozy-cards/id6760235561" target="_blank" rel="noopener">
+            <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us" alt="Download on the App Store">
+        </a>
+        <a class="store-link" href="https://play.google.com/store/apps/details?id=io.nyangi.solitaire" target="_blank" rel="noopener">
+            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" style="height: 72px; margin: -12px;">
+        </a>
+    </div>
+
+    <nav>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="impressum.html">Impressum</a>
+    </nav>
+</body>
+</html>
