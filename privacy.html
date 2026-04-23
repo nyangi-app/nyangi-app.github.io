@@ -49,7 +49,7 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p class="meta">Cat Solitaire &nbsp;·&nbsp; Last updated: March 2026</p>
+    <p class="meta">Cat Solitaire &nbsp;·&nbsp; Last updated: April 2026</p>
 
     <nav>
         <a href="support.html">Support</a>
@@ -75,13 +75,32 @@
         <li>Game settings (draw count, sound preferences, display preferences)</li>
         <li>Game statistics (games played, wins, streaks, best times)</li>
         <li>Achievement and player level progress</li>
-        <li>Undo treat balance</li>
+        <li>Treat balance (if you are not signed in; if signed in, this is also synced to the cloud — see section 2.2)</li>
     </ul>
     <p>
         You can delete all locally stored data at any time via <strong>Settings → Reset Progress</strong>, or by uninstalling the app.
     </p>
 
-    <h2>2.2 Advertising (Google AdMob)</h2>
+    <h2>2.2 Optional Account and Cloud Save (Firebase)</h2>
+    <p>
+        You may optionally create an account using <strong>Sign in with Apple</strong> or <strong>Google Sign-In</strong>. This is not required to play the game. Creating an account allows your purchased treat balance to be saved to the cloud and restored if you reinstall the app or switch devices.
+    </p>
+    <p>When you sign in, the following data is collected and stored:</p>
+    <ul>
+        <li><strong>Authentication data</strong> — a unique user identifier and, depending on your chosen sign-in method, your email address and display name. If you use Sign in with Apple with the "Hide My Email" option, only an Apple-generated private relay email address is stored.</li>
+        <li><strong>Purchased treat balance</strong> — the number of treats you have purchased, stored in Firebase Firestore to enable cross-device restore.</li>
+    </ul>
+    <p>
+        This data is stored on Google's Firebase infrastructure (Firebase Authentication and Cloud Firestore). We do not store your Apple ID or Google account password. You can delete your account and all associated cloud data at any time by contacting us at <a href="mailto:nyangi.info@gmail.com">nyangi.info@gmail.com</a>.
+    </p>
+    <p>
+        For more information, see <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy and Security</a>, <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>, and <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.
+    </p>
+    <p>
+        <strong>Legal basis (GDPR):</strong> Art. 6(1)(b) — performance of a contract (restoring purchased content you are entitled to).
+    </p>
+
+    <h2>2.3 Advertising (Google AdMob)</h2>
     <p>
         The app uses Google AdMob to display advertisements. AdMob may collect the following data to serve ads:
     </p>
@@ -104,7 +123,7 @@
         <strong>Legal basis (GDPR):</strong> Art. 6(1)(a) — consent.
     </p>
 
-    <h2>2.3 Analytics (Firebase Analytics)</h2>
+    <h2>2.4 Analytics (Firebase Analytics)</h2>
     <p>
         The app uses Firebase Analytics (provided by Google LLC) to understand how players interact with the game. Firebase Analytics collects:
     </p>
@@ -123,7 +142,7 @@
         <strong>Legal basis (GDPR):</strong> Art. 6(1)(f) — legitimate interest in understanding and improving the game experience.
     </p>
 
-    <h2>2.4 In-App Purchases</h2>
+    <h2>2.5 In-App Purchases</h2>
     <p>
         If you make an in-app purchase, the transaction is processed entirely by Apple (App Store) or Google (Google Play). We do not receive or store your payment information. We receive only a confirmation that a purchase was made, in order to unlock the purchased content on your device.
     </p>
@@ -139,8 +158,9 @@
         We do not sell your personal data. Data may be shared with the following third-party service providers solely to operate the app:
     </p>
     <ul>
-        <li><strong>Google LLC</strong> — AdMob (advertising), Firebase Analytics (analytics). Google acts as a data processor under a Data Processing Agreement. Google may be located outside the EEA; transfers are governed by Standard Contractual Clauses.</li>
-        <li><strong>Apple Inc. / Google LLC</strong> — In-app purchase processing (as independent data controllers).</li>
+        <li><strong>Google LLC</strong> — AdMob (advertising), Firebase Analytics (analytics), Firebase Authentication and Cloud Firestore (optional account and cloud save). Google acts as a data processor under a Data Processing Agreement. Google may be located outside the EEA; transfers are governed by Standard Contractual Clauses.</li>
+        <li><strong>Apple Inc.</strong> — Sign in with Apple (optional authentication), in-app purchase processing (as an independent data controller).</li>
+        <li><strong>Google LLC</strong> — Google Sign-In (optional authentication), Google Play in-app purchase processing (as an independent data controller).</li>
     </ul>
 
     <h2>4. Your Rights Under GDPR</h2>
